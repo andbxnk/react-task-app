@@ -45,7 +45,7 @@ export default function Home() {
           
         <img src={task} alt="Task" className="w-40 mb-4" />
 
-        <h1 className="text-3xl font-bold text-gray-800">
+        <h1 className="text-center text-3xl font-bold text-gray-800">
           Task Application
           <br />
           Digital Technology and Innovation (DTI)

@@ -13,7 +13,7 @@ export default function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/showalltask" element={<ShowAllTask/>} />
         <Route path="/addtask" element={<AddTask/>} />
-        <Route path="/updatetask" element={<UpdateTask/>} />
+        <Route path="/updatetask/:id" element={<UpdateTask/>} />
       </Routes>
       </BrowserRouter>
     </>
